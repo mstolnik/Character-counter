@@ -1,0 +1,148 @@
+.stranica {
+  height: 100dvh;
+  width: 100dvw;
+  background-color: rgb(31, 31, 32);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.topbar {
+  width: 1200px;
+  color: white;
+  text-align: left;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.topbarslika {
+  width: 48px;
+  height: 48px;
+}
+
+.heading {
+  color: white;
+  font-weight: bold;
+  margin: 0;
+  font-size: 50px;
+}
+
+.area {
+  width: 1200px;
+  background-color: rgb(64, 61, 61);
+  border-radius: 16px;
+  color: white;
+  border: solid 1px;
+  border-color: black;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.redak {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  gap: 20px;
+}
+
+.characters {
+  flex: 1;
+  height: 150px;
+  border: solid 1px;
+  background-color: rosybrown;
+  color: black;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  min-width: 100px;
+}
+
+.word {
+  flex: 1;
+  height: 150px;
+  border: solid 1px;
+  background-color: darkorange;
+  color: black;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  min-width: 100px;
+}
+
+.sentence {
+  flex: 1;
+  height: 150px;
+  border: solid 1px;
+  background-color: darkred;
+  color: black;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  min-width: 100px;
+}
+
+.slika {
+  width: 45%;
+  height: 150px;
+}
+
+.counter {
+  font-weight: bold;
+  font-size: 50px;
+  color: black;
+  margin: 0;
+}
+
+.opis {
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+}
+
+.lijevo {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: left;
+}
+
+.density {
+  color: white;
+  text-align: left;
+}
+
+.podnaslov {
+  width: 1200px;
+}
+
+.densityredak {
+  width: 1200px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+}
+
+.progressiza {
+  width: 80%;
+  background-color: rgb(80, 80, 80);
+  border-radius: 16px;
+  height: 20px;
+}
+
+.progressunutra {
+  width: 20%;
+  background-color: rosybrown;
+  border-radius: 16px;
+  height: 20px;
+}
