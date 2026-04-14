@@ -1,11 +1,12 @@
 .stranica {
-  height: 100dvh;
+  min-height: 100dvh;
   width: 100dvw;
   background-color: rgb(31, 31, 32);
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  scroll-behavior: auto;
 }
 
 .topbar {
