@@ -10,7 +10,7 @@
 }
 
 .topbar {
-  width: 1200px;
+  width: 80%;
   color: white;
   text-align: left;
   display: flex;
@@ -31,7 +31,7 @@
 }
 
 .area {
-  width: 1200px;
+  width: 80%;
   background-color: rgb(64, 61, 61);
   border-radius: 16px;
   color: white;
@@ -44,7 +44,7 @@
 .redak {
   display: flex;
   flex-wrap: wrap;
-  width: 1200px;
+  width: 80%;
   gap: 20px;
 }
 
@@ -122,11 +122,11 @@
 }
 
 .podnaslov {
-  width: 1200px;
+  width: 80%;
 }
 
 .densityredak {
-  width: 1200px;
+  width: 80%;
   display: flex;
   gap: 10px;
   justify-content: space-between;
@@ -146,4 +146,30 @@
   background-color: rosybrown;
   border-radius: 16px;
   height: 20px;
+}
+
+textarea {
+  resize: none;
+}
+
+@media (max-width: 600px) {
+  .topbarslika {
+    width: 28px;
+    height: 28px;
+  }
+  .topbar h1 {
+    font-size: large;
+  }
+  .heading {
+    font-size: large;
+  }
+  .counter {
+    font-size: 25px;
+  }
+  .density {
+    font-size: large;
+  }
+  .densityredak {
+    font-size: small;
+  }
 }

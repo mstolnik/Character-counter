@@ -8,7 +8,7 @@ function App() {
   var [text, setText] = useState("");
   var slova = text.length;
   var rijeci = text.trim() == "" ? 0 : text.trim().split(" ").length;
-  var recenice = text.trim() == "" ? 0 : text.trim().split(".").length;
+  var recenice = text.trim() == "" ? 0 : text.trim().split(".").length - 1;
   const density = () => {
     if (text.trim() === "") return [];
 
